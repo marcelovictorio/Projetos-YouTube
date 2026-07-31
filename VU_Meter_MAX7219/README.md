@@ -2,9 +2,13 @@ Este projeto é um Visualizador de Áudio e Reprodutor Bluetooth Integrado para 
 
 🛠️ Arquitetura e Componentes Principais
 Processamento (ESP32): Gerencia a conexão Bluetooth, decodifica o fluxo de áudio A2DP, processa a amplitude dos canais em tempo real (RMS) e controla os periféricos digitais.
+
 Saída de Áudio (MAX98357A): DAC / Amplificador Classe D conectado via barramento I2S, garantindo reprodução limpa no alto-falante sem os ruídos típicos do DAC analógico interno.
+
 Display Visual (Matriz 8x32 MAX7219): Conjunto de 4 matrizes $8 \times 8$ conectadas via SPI, operando em dois modos distintos:
+
 Modo Standby (Desconectado): Exibe mensagens de status e orientações com texto rolante na tela.
+
 Modo Ativo (Conectado): Transforma-se em um VU Meter de 32 colunas, exibindo a intensidade sonora da música com animação de queda suave dos picos (peak decay).
 
 💻 Destaques do Software
