@@ -13,7 +13,9 @@ Modo Ativo (Conectado): Transforma-se em um VU Meter de 32 colunas, exibindo a i
 
 💻 Destaques do Software
 Biblioteca AudioTools.h: Garante compatibilidade total com as atualizações recentes do ESP32 Core (v3.x / ESP-IDF v5), contornando as mudanças estruturais do driver I2S nativo.
+
 Biblioteca BluetoothA2DPSink: Trata o pareamento Bluetooth e o recebimento de áudio via streaming do celular ou computador.
+
 Tratamento Customizado de Display (MD_MAX72XX): Inclui manipulação direta dos dados no buffer SPI com funções de inversão bit a bit (bit-reversal), garantindo a orientação correta das letras e animação suave a 60 FPS no VU Meter.
 
 <img width="960" height="720" alt="ESP32_VUMeteBarrasVerticaisMAX7219" src="https://github.com/user-attachments/assets/aedd01b9-0d77-4646-85bb-a6a36762d74a" />
