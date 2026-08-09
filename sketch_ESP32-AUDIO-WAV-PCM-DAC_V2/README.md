@@ -43,3 +43,6 @@ HxD Copyright© 2002-2021 by Maël Hörz. All rights reserved.
 ✔️ Abra o arquivo gerado pelo HxD usando o Bloco de Notas ou um editor de texto.
 ✔️ Para que o código funcione perfeitamente com a nossa otimização de memória Flash, renomeie a variável rawData para o nome que preferir e adicione o atributo PROGMEM. (otimizada para memória Flash)
 
+<img width="960" height="720" alt="ESP32 Reproduzindo som Array-PCM-WAV com DAC Interno" src="https://github.com/user-attachments/assets/b55cd85b-e3c4-45ee-9b51-5afaca3efaa5" />
+
+
