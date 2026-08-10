@@ -26,7 +26,7 @@ Sobre o arquivo de áudio:
 Se você estiver utilizando o áudio em projetos de hardware com memória ou processamento limitados, é necessário reduzir o tamanho do arquivo drasticamente. 
 🎵 Preparando o áudio (Via Audacity):
 ✔️ Codificação: PCM (Não comprimido)
-✔️ Taxa de Amostragem: 8 kHz, 11.025 kHz ou 16 kHz
+✔️ Taxa de Amostragem: 16 kHz (8 kHz / 11 kHz)
 ✔️ Profundidade de Bits: 8 bits (ou 16 bits se houver um DAC melhor disponível)
 ✔️ Canais: 1 (Mono)
 ✔️ Exporte: Vá em Arquivo > Exportar > Exportar como WAV.
