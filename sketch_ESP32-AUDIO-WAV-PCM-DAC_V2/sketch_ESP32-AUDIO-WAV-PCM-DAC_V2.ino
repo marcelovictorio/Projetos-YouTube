@@ -2,7 +2,9 @@
 Código gerado com o auxílio de Inteligência Artificial (IA) e refinado conforme as necessidades do projeto em 08/08/2026.
 https://github.com/marcelovictorio @MarceloVictorio YouTube
 */
-
+#include <Arduino.h>
+#include "AudioTools.h" // Importa a nova biblioteca
+#include "audio.h"      // O seu array de áudio
 // ==========================================
 // CONFIGURAÇÃO DOS PINOS (MAX98357A)
 // ==========================================
