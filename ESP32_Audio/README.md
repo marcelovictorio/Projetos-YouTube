@@ -43,8 +43,7 @@ Se você estiver utilizando o áudio em projetos de hardware com memória ou pro
 
 ✔️ Exportar
 
-📌 Extraindo o código hexadecimal com o HxD
-Agora vamos usar o HxD para transformar esse arquivo de áudio em linhas de código.
+📌 Agora vamos usar o HxD (app) para transformar esse arquivo de áudio em linhas de código.
 
 ✔️ Abra o HxD. (HxD Copyright© 2002-2021 by Maël Hörz. All rights reserved).
 
