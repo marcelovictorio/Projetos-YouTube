@@ -4,7 +4,9 @@ baseada no microcontrolador ESP32 e Arduino.
 
 📌 Arquitetura de Hardware
 ✔️ Unidade de Processamento: ESP32.
+
 ✔️ Módulo de Áudio: Amplificador MAX98357A (Classe D). Substituiu o DAC interno inicial para fornecer um áudio potente e limpo através de comunicação digital via protocolo I2S.
+
 ✔️ Interface de Acionamento: Botão físico (push-button) conectado ao pino GND e ao GPIO 18, utilizando o resistor de INPUT_PULLUP interno do ESP32 para garantir estabilidade elétrica e evitar falsos disparos por pinos flutuantes.
 
 📌 Arquitetura de Software e Código
@@ -25,22 +27,32 @@ Sobre o arquivo de áudio:
 
 Se você estiver utilizando o áudio em projetos de hardware com memória ou processamento limitados, é necessário reduzir o tamanho do arquivo drasticamente. 
 🎵 Preparando o áudio (Via Audacity):
+
 ✔️ Codificação: PCM (Não comprimido)
+
 ✔️ Taxa de Amostragem: 16 kHz (8 kHz / 11 kHz)
+
 ✔️ Profundidade de Bits: 8 bits (ou 16 bits se houver um DAC melhor disponível)
+
 ✔️ Canais: 1 (Mono)
+
 ✔️ Exporte: Vá em Arquivo > Exportar > Exportar como WAV.
 
 📌 Extraindo o código hexadecimal com o HxD
 Agora vamos usar o HxD para transformar esse arquivo de áudio em linhas de código.
 
-✔️ Abra o HxD. 
-HxD Copyright© 2002-2021 by Maël Hörz. All rights reserved.
+✔️ Abra o HxD. (HxD Copyright© 2002-2021 by Maël Hörz. All rights reserved).
+
 ✔️ Arraste e solte o arquivo campainha_pronta.wav para dentro da janela do HxD (ou vá em Arquivo > Abrir). Você verá uma matriz enorme de números e letras.
+
 ✔️ No menu superior, clique em Arquivo (File).
+
 ✔️ Vá até Exportar (Export) e clique na opção C.
+
 ✔️ O HxD pedirá para você salvar um novo arquivo. Salve-o na sua Área de Trabalho com qualquer nome (ex: audio.h).
+
 ✔️ Abra o arquivo gerado pelo HxD usando o Bloco de Notas ou um editor de texto.
+
 ✔️ Para que o código funcione perfeitamente com a nossa otimização de memória Flash, renomeie a variável rawData para o nome que preferir e adicione o atributo PROGMEM. (otimizada para memória Flash)
 
 <img width="960" height="720" alt="ESP32 Reproduzindo som Array-PCM-WAV com DAC Interno" src="https://github.com/user-attachments/assets/b55cd85b-e3c4-45ee-9b51-5afaca3efaa5" />
