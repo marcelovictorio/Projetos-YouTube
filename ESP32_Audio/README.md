@@ -29,8 +29,6 @@ Sobre o arquivo de áudio:
 
 Se você estiver utilizando o áudio em projetos de hardware com memória ou processamento limitados, é necessário reduzir o tamanho do arquivo drasticamente. 
 
-🎵 Preparando o áudio (Via Audacity):
-
 ✔️ Arquivo: Exportar áudio como... (Ctrl+Chift+E) -> Exportar para o computador
 
 ✔️ Formato: WAV (Microsoft)
