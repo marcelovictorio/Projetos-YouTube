@@ -43,9 +43,6 @@ Se você estiver utilizando o áudio em projetos de hardware com memória ou pro
 
 ✔️ Exportar
 
-<img width="984" height="272" alt="image" src="https://github.com/user-attachments/assets/88242a82-5289-4c1c-8560-59d10812b73d" />
-
-
 📌 Extraindo o código hexadecimal com o HxD
 Agora vamos usar o HxD para transformar esse arquivo de áudio em linhas de código.
 
