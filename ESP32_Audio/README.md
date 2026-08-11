@@ -47,7 +47,7 @@ Se você estiver utilizando o áudio em projetos de hardware com memória ou pro
 
 ✔️ Abra o HxD. (HxD Copyright© 2002-2021 by Maël Hörz. All rights reserved).
 
-✔️ Arraste e solte o arquivo campainha_pronta.wav para dentro da janela do HxD (ou vá em Arquivo > Abrir). Você verá uma matriz enorme de números e letras.
+✔️ Arraste e solte o arquivo audio.wav para dentro da janela do HxD (ou vá em Arquivo > Abrir). Você verá uma matriz enorme de números e letras.
 
 ✔️ No menu superior, clique em Arquivo (File).
 
