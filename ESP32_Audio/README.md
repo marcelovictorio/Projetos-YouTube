@@ -31,15 +31,20 @@ Se você estiver utilizando o áudio em projetos de hardware com memória ou pro
 
 🎵 Preparando o áudio (Via Audacity):
 
-✔️ Codificação: PCM (Não comprimido)
+✔️ Arquivo: Exportar áudio como... (Ctrl+Chift+E) -> Exportar para o computador
+
+✔️ Formato: WAV (Microsoft)
+
+✔️  Canais: 1 (Mono)
 
 ✔️ Taxa de Amostragem: 16 kHz (8 kHz / 11 kHz)
 
-✔️ Profundidade de Bits: 8 bits (ou 16 bits se houver um DAC melhor disponível)
+✔️ Codificação: Unsigned 8-bit PCM (Não comprimido)
 
-✔️ Canais: 1 (Mono)
+✔️ Exportar
 
-✔️ Exporte: Vá em Arquivo > Exportar > Exportar como WAV.
+<img width="984" height="272" alt="image" src="https://github.com/user-attachments/assets/88242a82-5289-4c1c-8560-59d10812b73d" />
+
 
 📌 Extraindo o código hexadecimal com o HxD
 Agora vamos usar o HxD para transformar esse arquivo de áudio em linhas de código.
