@@ -29,7 +29,9 @@ Sobre o arquivo de áudio:
 
 Se você estiver utilizando o áudio em projetos de hardware com memória ou processamento limitados, é necessário reduzir o tamanho do arquivo drasticamente. 
 
-✔️ Arquivo: Exportar áudio como... (Ctrl+Chift+E) -> Exportar para o computador
+✔️ Arraste o arquivo .mp3 para a área de trabalho.
+
+✔️ Selecione Arquivo -> Exportar áudio como... (Ctrl+Chift+E) -> Exportar para o computador
 
 ✔️ Formato: WAV (Microsoft)
 
