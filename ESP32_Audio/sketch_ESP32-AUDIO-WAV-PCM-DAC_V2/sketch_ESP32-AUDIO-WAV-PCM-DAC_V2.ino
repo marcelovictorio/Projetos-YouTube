@@ -1,5 +1,5 @@
 /*
-Código gerado com o auxílio de Inteligência Artificial (IA) e refinado conforme as necessidades do projeto em 08/08/2026.
+Código gerado com o auxílio de Inteligência Artificial (IA) e refinado conforme as necessidades do projeto em 09/08/2026.
 https://github.com/marcelovictorio @MarceloVictorio YouTube
 */
 #include <Arduino.h>
@@ -42,11 +42,11 @@ void setup() {
   i2s.begin(config);
   saidaAudio.begin();
   
-  Serial.println("Sistema da Campainha (AudioTools) Iniciado. Aguardando...");
+  Serial.println("Sistema de Som (AudioTools) Iniciado. Aguardando...");
 }
 
 void PlayAudio() {
-  Serial.println("Tocando a campainha...");
+  Serial.println("Tocando som...");
   
   // Reinicia o fluxo de leitura de memória para o começo do arquivo (posição 0)
   memoriaAudio.begin(); 
@@ -57,7 +57,7 @@ void PlayAudio() {
 
 void loop() {
   // 1. VERIFICA O BOTÃO
-  // Só aciona se o botão for pressionado E a campainha não estiver tocando no momento
+  // Só aciona se o botão for pressionado e não houver som no momento
   if (digitalRead(PINO_BOTAO) == HIGH && !tocando) {
     PlayAudio();
     delay(300); // Pequeno atraso para debounce
