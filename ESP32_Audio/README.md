@@ -3,6 +3,7 @@ Reproduzir arquivos de áudio digital com alta fidelidade, mantendo uma arquitet
 baseada no microcontrolador ESP32 e Arduino.
 
 📌 Arquitetura de Hardware
+
 ✔️ Unidade de Processamento: ESP32.
 
 ✔️ Módulo de Áudio: Amplificador MAX98357A (Classe D). Substituiu o DAC interno inicial para fornecer um áudio potente e limpo através de comunicação digital via protocolo I2S.
@@ -10,6 +11,7 @@ baseada no microcontrolador ESP32 e Arduino.
 ✔️ Interface de Acionamento: Botão físico (push-button) conectado ao pino GND e ao GPIO 18, utilizando o resistor de INPUT_PULLUP interno do ESP32 para garantir estabilidade elétrica e evitar falsos disparos por pinos flutuantes.
 
 📌 Arquitetura de Software e Código
+
 ✔️ Modularidade: Separação da matriz de dados do áudio em um arquivo de cabeçalho independente (audio.h), mantendo o código principal limpo e focado na lógica de negócio.
 
 ✔️ Otimização de Memória: Aplicação do atributo PROGMEM no array de áudio, transferindo o armazenamento estático da RAM para a memória Flash, garantindo estabilidade e evitando travamentos por falta de memória.
@@ -26,6 +28,7 @@ Sobre o arquivo de áudio:
 📌 Preparando o áudio (Via Audacity)
 
 Se você estiver utilizando o áudio em projetos de hardware com memória ou processamento limitados, é necessário reduzir o tamanho do arquivo drasticamente. 
+
 🎵 Preparando o áudio (Via Audacity):
 
 ✔️ Codificação: PCM (Não comprimido)
