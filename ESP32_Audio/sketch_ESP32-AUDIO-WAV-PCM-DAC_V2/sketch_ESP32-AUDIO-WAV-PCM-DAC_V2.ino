@@ -6,12 +6,21 @@ https://github.com/marcelovictorio @MarceloVictorio YouTube
 #include "AudioTools.h" // Importa a nova biblioteca
 #include "audio.h"      // O seu array de áudio
 // ==========================================
-// CONFIGURAÇÃO DOS PINOS (MAX98357A)
+// CONFIGURAÇÃO DOS PINOS (ESP32 -> MAX98357A)
 // ==========================================
+/*
 #define I2S_BCLK 26
 #define I2S_LRC  25
 #define I2S_DOUT 22
 #define PINO_BOTAO 18
+*/
+// ==========================================
+// CONFIGURAÇÃO DOS PINOS (ESP32-C3 -> MAX98357A)
+// ==========================================
+#define I2S_BCLK 4   // Bit Clock
+#define I2S_LRC  5   // Left/Right Clock (Word Select)
+#define I2S_DOUT 6   // Data Out
+#define PINO_BOTAO 3 // Pino do botão da campainha
 
 // ==========================================
 // OBJETOS DO AUDIO TOOLS
