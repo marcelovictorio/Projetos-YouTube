@@ -59,7 +59,6 @@ Se você estiver utilizando o áudio em projetos de hardware com memória ou pro
 
 ✔️ Para que o código funcione perfeitamente com a nossa otimização de memória Flash, renomeie a variável rawData para o nome que preferir e adicione o atributo PROGMEM. (otimizada para memória Flash)
 
-<img width="960" height="720" alt="ESP32 Reproduzindo som Array-PCM-WAV com DAC Interno" src="https://github.com/user-attachments/assets/7ec2acad-1cb9-488a-b534-168191c33cf6" />
-
+<img width="960" height="720" alt="ESP32 Reproduzindo som Array-PCM-WAV com DAC Interno" src="https://github.com/user-attachments/assets/4d2847fa-8dcb-47b9-a5d1-25d15b168b3b" />
 
 
