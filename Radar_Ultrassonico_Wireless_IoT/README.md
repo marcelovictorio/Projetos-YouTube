@@ -24,10 +24,15 @@ Jumpers e Breadboard
 Passo a passo rápido:
 
 Carregue o código no ESP32-C3.
+
 Conecte no Wi-Fi "ESP32_Radar_Web".
-Abra o navegador e digite: 192.168.4.1
+
+Abra o navegador e digite: 192.168.4.1 (conforme sua rede)
+
 Como fazer um Radar Ultrassônico Wireless IoT
-Se o radar funcionar pra você, deixa um like aqui! 👇🚀
+
+Se o radar funcionar pra você, deixa um like aqui!
+👇🚀
 <img width="960" height="720" alt="image" src="https://github.com/user-attachments/assets/2582cedf-061e-4e69-8825-8b48bb96c2ac" />
 
 https://youtube.com/shorts/lt7UA6r5blQ?si=WrOVBYSNZ0ohJrK7
