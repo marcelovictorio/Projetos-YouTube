@@ -1,4 +1,4 @@
-Neste vídeo, eu construí um Sistema de Radar Militar real que você controla e visualiza direto pelo navegador do seu celular, sem precisar instalar nenhum arquivo APK ou aplicativo da loja.
+Sistema de Radar Militar real que você controla e visualiza direto pelo navegador do seu celular, sem precisar instalar nenhum arquivo APK ou aplicativo da loja.
 
 Usando WebSockets e HTML5, a varredura é em tempo real: o motor gira, o sensor detecta e o seu celular vira uma tela de comando militar! 🎖️
 
