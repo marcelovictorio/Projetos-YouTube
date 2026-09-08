@@ -1,5 +1,5 @@
-Titulo:
-Desenhe no celular e veja aparecer na matriz LED em TEMPO REAL 😱 #esp32 #wireless #arduino #iot
+Desenhe no celular e veja aparecer na matriz LED em TEMPO REAL 😱 
+#esp32 #wireless #arduino #iot
 
 Descrição:
 🚀 Desenhe no celular e veja aparecer na matriz LED em TEMPO REAL (ESP32 + Wi-Fi, sem app!)
@@ -39,18 +39,8 @@ Quando você desenha no celular, os dados são enviados em tempo real e exibidos
 3️⃣ No celular, conecte no Wi-Fi:
 👉 ESP32-LED
 
-4️⃣ Abra o navegador e acesse:
-👉 http://192.168.4.1
+4️⃣ Abra o navegador e acesse: o endereço IP conforme sua rede.
 
 5️⃣ Desenhe na tela e veja aparecer na matriz em tempo real 🤯
-
-💬 QUER O CÓDIGO COMPLETO?
-Comenta **EU QUERO** que eu te envio a versão atualizada com melhorias 
-
-👍 Se curtiu:
-
-* Deixa o like
-* Se inscreve no canal
-* Compartilha com alguém que curte tecnologia
 
 #ESP32 #Arduino #IoT #Eletrônica #Programação #DIY #Maker #Automação #Tecnologia #LEDMatrix
