@@ -43,4 +43,7 @@ Quando você desenha no celular, os dados são enviados em tempo real e exibidos
 
 5️⃣ Desenhe na tela e veja aparecer na matriz em tempo real 🤯
 
+<img width="960" height="720" alt="ESP32_C3_MatrizLed_LiveDrawing" src="https://github.com/user-attachments/assets/3b1b3f6d-d7b6-445f-af9d-9ed528f8bc7d" />
+
+
 #ESP32 #Arduino #IoT #Eletrônica #Programação #DIY #Maker #Automação #Tecnologia #LEDMatrix
