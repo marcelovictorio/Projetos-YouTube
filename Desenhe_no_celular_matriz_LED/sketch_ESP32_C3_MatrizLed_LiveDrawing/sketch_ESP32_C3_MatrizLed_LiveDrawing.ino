@@ -1,3 +1,7 @@
+/*
+Código gerado com o auxílio de Inteligência Artificial (IA) e refinado conforme as necessidades do projeto em 07/05/2026.
+https://github.com/marcelovictorio @MarceloVictorio YouTube
+*/
 #include <WiFi.h>
 #include <WebServer.h>
 #include <MD_MAX72xx.h>
